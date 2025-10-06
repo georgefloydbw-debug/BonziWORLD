@@ -1,8 +1,8 @@
 {
   "prefs": {
     "public": {
-      "char_limit": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
-      "name_limit": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "char_limit": 999999,
+      "name_limit": 999999,
       "godword": null,
       "runlevel": {
         "godmode": 0,
@@ -29,23 +29,15 @@
         "pope": 3,
         "god": 3
       },
-      "room_max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "room_max": 999999,
       "owner": null,
-      "pitch": {
-        "max": 500,
-        "min": 0,
-        "default": "random"
-      },
-      "speed": {
-        "max": 450,
-        "min": 0,
-        "default": "random"
-      },
+      "pitch": { "max": 500, "min": 0, "default": "random" },
+      "speed": { "max": 450, "min": 0, "default": "random" },
       "defaultName": "Anonymous"
     },
     "private": {
-      "char_limit": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
-      "name_limit": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "char_limit": 999999,
+      "name_limit": 999999,
       "godword": null,
       "runlevel": {
         "godmode": 0,
@@ -72,18 +64,10 @@
         "pope": 3,
         "god": 3
       },
-      "room_max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+      "room_max": 999999,
       "owner": null,
-      "pitch": {
-        "max": 500,
-        "min": 0,
-        "default": "random"
-      },
-      "speed": {
-        "max": 450,
-        "min": 0,
-        "default": "random"
-      },
+      "pitch": { "max": 500, "min": 0, "default": "random" },
+      "speed": { "max": 450, "min": 0, "default": "random" },
       "defaultName": "Anonymous"
     }
   },
@@ -93,40 +77,23 @@
       "level": "info",
       "filename": "./logs/info.log",
       "maxsize": "1024000",
-      "maxFiles": "3",
-    "handleExceptions": true,
-    "humanReadableUnhandledException": true
+      "handleExceptions": true,
+      "humanReadableUnhandledException": true
     },
     "access": {
       "level": "info",
       "filename": "./logs/access.log",
       "maxsize": "1024000",
-      "maxFiles": "3",
-    "handleExceptions": true,
-    "humanReadableUnhandledException": true
+      "handleExceptions": true,
+      "humanReadableUnhandledException": true
     }
   },
   "bonziColors": [
-    "purple",
-    "blue",
-    "green",
-    "red",
-    "black",
-    "brown",
-    "pink",
-    "aqua",
-    "cyan",
-    "diamond",
-    "emerald",
-    "gold",
-    "lime",
-    "orange",
-    "white",
-    "yellow"
+    "purple", "blue", "green", "red", "black", "brown",
+    "pink", "aqua", "cyan", "diamond", "emerald", "gold",
+    "lime", "orange", "white", "yellow"
   ],
   "banLength": 1440,
-  "port": 80,
-  "express": {
-    "serveStatic": true
-  }
+  "port": 3000,
+  "express": { "serveStatic": true }
 }
